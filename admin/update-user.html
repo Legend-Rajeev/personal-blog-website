@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New User</title>
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <!-- --------------------- Header -----------------  -->
+
+        <header>
+            <div class="container">
+
+                <div class="logo"><a href="#">Rajiv<span>Tech</span></a></div>
+                <div class="search_box" style="display: flex; align-items: center;">
+                    <p>Hey! Rajeev kumar</p>
+                    <button class="btn btn-primary" style="margin-left: 2rem;"> Logout</button>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- --------------- x ------------ End Header ------------- x ------------->
+
+        <!-- ----------------------- Navigation ----------------------  -->
+        <div class="navigation">
+            <div class="container">
+
+                <a href="#" class="menu-toggle"><i class="fa fa-bars " aria-hidden="true"></i></a>
+                <ul class="nav_links">
+                    <li><a href="post.html">POST</a></li>
+                    <li><a href="users.html">USERS</a></li>
+                    <li><a href="category.html">CATEGORY</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-------------- x -------- End Navigation -------- x ----------->
+
+        <!-- ----------------- Start Content ---------------------  -->
+
+        <div class="adm_post_content">
+            <div class="container">
+                <h2 class="py-3"> Update User Details </h2>
+
+                <div class="add_user">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lname">First Name</label>
+                                <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Choose your username">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Role</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Admin</option>
+                                <option>Normal User</option>
+                              
+                            </select>
+                        </div>
+                        
+                     
+                        <button type="submit" class="btn btn-primary mx-auto d-block w-100" >Update</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-- ------------------- End Content ------------------ -->
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
